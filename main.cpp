@@ -1,4 +1,4 @@
-#include<iostream>
+ï»¿#include<iostream>
 
 //using namespace std;
 void main()
@@ -6,9 +6,9 @@ void main()
 	setlocale(LC_ALL, "Russian");
 
 	std::cout << "Asscci 0 - 255\n\n";
-	int counter_to_down = 256; //Ìàêñèìàëüíîå çíà÷åíèå ñ÷åò÷èêà.
+	int counter_to_down = 256; //ÐœÐ°ÐºÑÐ¸Ð¼Ð°Ð»ÑŒÐ½Ð¾Ðµ Ð·Ð½Ð°Ñ‡ÐµÐ½Ð¸Ðµ ÑÑ‡ÐµÑ‚Ñ‡Ð¸ÐºÐ°.
 
-	int counter_to_up = 0; //äëÿ òîãî ÷òîáû ñèìâîëû âûâîäèëèñü ïî âîçðîñòàíèþ
+	int counter_to_up = 0; //Ð´Ð»Ñ Ñ‚Ð¾Ð³Ð¾ Ñ‡Ñ‚Ð¾Ð±Ñ‹ ÑÐ¸Ð¼Ð²Ð¾Ð»Ñ‹ Ð²Ñ‹Ð²Ð¾Ð´Ð¸Ð»Ð¸ÑÑŒ Ð¿Ð¾ Ð²Ð¾Ð·Ñ€Ð¾ÑÑ‚Ð°Ð½Ð¸ÑŽ
 
 	while (counter_to_down--)
 	{
